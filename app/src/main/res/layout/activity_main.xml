@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/clouds">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,7 +18,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Name: "
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
 
         <EditText
             android:id="@+id/editTextText"
@@ -26,7 +29,9 @@
             android:layout_weight="1"
             android:ems="10"
             android:hint="Enter your name"
-            android:inputType="text" />
+            android:inputType="text"
+            android:textColorHint="#90FFFFFF" />
+
 
     </LinearLayout>
 
@@ -40,7 +45,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Mobile No. :"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
 
         <EditText
             android:id="@+id/editTextText3"
@@ -49,7 +56,8 @@
             android:layout_weight="1"
             android:ems="10"
             android:hint="Enter your mobile number"
-            android:inputType="text" />
+            android:inputType="text"
+            android:textColorHint="#90FFFFFF"/>
     </LinearLayout>
 
     <LinearLayout
@@ -62,7 +70,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Group Size :"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
 
         <EditText
             android:id="@+id/editTextText4"
@@ -70,7 +80,8 @@
             android:layout_height="48dp"
             android:ems="10"
             android:hint="Enter your group size"
-            android:inputType="text" />
+            android:inputType="text"
+            android:textColorHint="#90FFFFFF"/>
     </LinearLayout>
 
     <ScrollView
@@ -87,7 +98,8 @@
                 android:id="@+id/textView4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Booking Date and Time" />
+                android:text="Booking Date and Time"
+                android:textStyle="bold" />
 
             <DatePicker
                 android:id="@+id/datePicker"
@@ -106,7 +118,9 @@
                 android:id="@+id/textView5"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="Others : " />
+                android:text="Others : "
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"/>
 
             <RadioGroup
                 android:id="@+id/RadioGroup"
